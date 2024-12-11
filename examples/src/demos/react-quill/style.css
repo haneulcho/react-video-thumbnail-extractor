@@ -1,0 +1,18 @@
+body {
+  min-width: 360px;
+  background-color: #1a1a1a;
+}
+
+.ql-editor{
+  height: 30vh;
+  min-height: 220px;
+  max-height: 320px;
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  img {
+    border-radius: 6px;
+  }
+}

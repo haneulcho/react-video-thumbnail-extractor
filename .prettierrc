@@ -1,0 +1,34 @@
+{
+  "semi": true,
+  "singleQuote": true,
+  "useTabs": false,
+  "printWidth": 120,
+  "quoteProps": "as-needed",
+  "arrowParens": "always",
+  "trailingComma": "none",
+  "jsxSingleQuote": false,
+  "tailwindConfig": "tailwind.config.ts",
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindFunctions": ["clsx", "cn"],
+  "overrides": [
+    {
+      "files": ".prettierrc",
+      "options": {
+        "parser": "json"
+      }
+    },
+    {
+      "files": ["*.json"],
+      "options": {
+        "singleQuote": false,
+        "quoteProps": "preserve"
+      }
+    },
+    {
+      "files": ["*.yml"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}

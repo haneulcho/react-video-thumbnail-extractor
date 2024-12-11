@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "ES6",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "es2015"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"],
+    "paths": {
+      "@/*": ["src/*"],
+      "@icons": ["src/assets/icons/*"]
+    }
+  },
+  "include": ["src", "eslint.config.mjs", "test-setup.ts", "*.config.ts", "*.config.mjs"],
+  "exclude": ["node_modules", "dist"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}

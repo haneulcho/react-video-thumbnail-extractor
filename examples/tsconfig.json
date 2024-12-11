@@ -1,0 +1,11 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "../",
+    "paths": {
+      "@/*": ["examples/src/*"],
+      "@sky-ui/react-video-thumbnail-extractor": ["src/index.ts"]
+    }
+  },
+  "include": ["src", "examples"]
+}

@@ -1,0 +1,47 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #app-demo {
+    @apply scrollbar;
+    height: 100%;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .trans-fade-in {
+    @apply opacity-0 transition-all duration-300 will-change-[opacity];
+
+    &.fade-in-appear {
+      @apply opacity-0;
+    }
+    &.fade-in-enter {
+      @apply opacity-0;
+    }
+    &.fade-in-appear-active {
+      @apply opacity-100;
+    }
+    &.fade-in-enter-active {
+      @apply opacity-100;
+    }
+    &.fade-in-appear-done {
+      @apply opacity-100;
+    }
+    &.fade-in-enter-done {
+      @apply opacity-100;
+    }
+    &.fade-in-exit {
+      @apply opacity-100;
+    }
+    &.fade-in-exit-active {
+      @apply opacity-0;
+    }
+  }
+}
