@@ -1,9 +1,9 @@
 import 'react-quill-new/dist/quill.snow.css';
 import './style.css';
-import '@sky-ui/react-video-thumbnail-extractor/style.css';
+import '@devskyui/react-video-thumbnail-extractor/style.css';
 
-import type { Thumbnail } from '@sky-ui/react-video-thumbnail-extractor';
-import { VideoThumbnailExtractorModal } from '@sky-ui/react-video-thumbnail-extractor';
+import type { Thumbnail } from '@devskyui/react-video-thumbnail-extractor';
+import { VideoThumbnailExtractorModal } from '@devskyui/react-video-thumbnail-extractor';
 import { useMemo } from 'react';
 import ReactQuill from 'react-quill-new';
 

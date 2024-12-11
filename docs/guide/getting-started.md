@@ -5,15 +5,15 @@
 ::: code-group
 
 ```sh [yarn]
-yarn add @sky-ui/react-video-thumbnail-extractor
+yarn add @devskyui/react-video-thumbnail-extractor
 ```
 
 ```sh [npm]
-npm install @sky-ui/react-video-thumbnail-extractor
+npm install @devskyui/react-video-thumbnail-extractor
 ```
 
 ```sh [pnpm]
-pnpm add @sky-ui/react-video-thumbnail-extractor
+pnpm add @devskyui/react-video-thumbnail-extractor
 ```
 
 :::
@@ -25,7 +25,7 @@ pnpm add @sky-ui/react-video-thumbnail-extractor
 ```json{3}
 "dependencies": {
   ...
-  "@sky-ui/react-video-thumbnail-extractor": "^0.1.0",
+  "@devskyui/react-video-thumbnail-extractor": "^0.1.0",
   "react-icons": "^5.3.0",
   ...
 },
@@ -36,9 +36,9 @@ pnpm add @sky-ui/react-video-thumbnail-extractor
 ```tsx{3-5}
 import { useState } from 'react';
 
-import '@sky-ui/react-video-thumbnail-extractor/style.css';
-import type { Thumbnail } from '@sky-ui/react-video-thumbnail-extractor';
-import { VideoThumbnailExtractor } from '@sky-ui/react-video-thumbnail-extractor';
+import '@devskyui/react-video-thumbnail-extractor/style.css';
+import type { Thumbnail } from '@devskyui/react-video-thumbnail-extractor';
+import { VideoThumbnailExtractor } from '@devskyui/react-video-thumbnail-extractor';
 ```
 
 ## 레이어 팝업으로 사용하기

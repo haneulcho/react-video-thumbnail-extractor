@@ -1,10 +1,10 @@
-# @sky-ui/react-video-thumbnail-extractor
+# @devskyui/react-video-thumbnail-extractor
 
 > 📌 본 README.md 파일은 프로젝트에 관한 최소한의 내용을 담고 있습니다. 보다 자세한 내용은 `yarn docs`, `yarn dev` 커맨드를 실행하셔서 확인해 주시기 바랍니다.
 
 ## 소개
 
-`@sky-ui/react-video-thumbnail-extractor`는 React 기반 프로젝트에서 비디오 파일로부터 썸네일을 손쉽게 추출할 수 있는 컴포넌트입니다. 이 라이브러리는 사용자 경험 향상을 위해 설계되었으며, 커스터마이징 가능한 에러 핸들링, 다국어 지원 메시지, 반응형 디자인을 제공합니다. 또한 간단하고 직관적인 API를 제공합니다.
+`@devskyui/react-video-thumbnail-extractor`는 React 기반 프로젝트에서 비디오 파일로부터 썸네일을 손쉽게 추출할 수 있는 컴포넌트입니다. 이 라이브러리는 사용자 경험 향상을 위해 설계되었으며, 커스터마이징 가능한 에러 핸들링, 다국어 지원 메시지, 반응형 디자인을 제공합니다. 또한 간단하고 직관적인 API를 제공합니다.
 
 
 ---
@@ -76,10 +76,10 @@ dist/
 React에서 동영상 썸네일 추출 모듈을 사용하는 방법을 담은 가이드 문서 소스입니다. [VitePress](https://vitepress.dev/)를 활용했습니다.
 
 ### /examples
-React 프로젝트 개발 시 `@sky-ui/react-video-thumbnail-extractor` 모듈을 설치했다는 가정 하에 참고할 수 있는 예제 코드입니다. 예제용 에디터와 에러 메시지 노출 라이브러리로 [React Quill](https://github.com/VaguelySerious/react-quill), [React Hot Toast](https://react-hot-toast.com/)를 활용했습니다.
+React 프로젝트 개발 시 `@devskyui/react-video-thumbnail-extractor` 모듈을 설치했다는 가정 하에 참고할 수 있는 예제 코드입니다. 예제용 에디터와 에러 메시지 노출 라이브러리로 [React Quill](https://github.com/VaguelySerious/react-quill), [React Hot Toast](https://react-hot-toast.com/)를 활용했습니다.
 
 ### /src
-동영상 썸네일 추출 모듈 `@sky-ui/react-video-thumbnail-extractor` 의 코어 소스입니다. 비디오 플레이어, 스타일링에 [React Player](https://github.com/cookpete/react-player), [Tailwind CSS](https://tailwindcss.com/), [React Icons](https://react-icons.github.io/react-icons/)를 활용했습니다.
+동영상 썸네일 추출 모듈 `@devskyui/react-video-thumbnail-extractor` 의 코어 소스입니다. 비디오 플레이어, 스타일링에 [React Player](https://github.com/cookpete/react-player), [Tailwind CSS](https://tailwindcss.com/), [React Icons](https://react-icons.github.io/react-icons/)를 활용했습니다.
 
 - `yarn dev` 커맨드로 개발 환경에서 예제를 실행한 후, src 폴더 내 모듈 코어 소스를 수정하면 examples 폴더의 예제에 즉시 반영됩니다.
 
@@ -87,8 +87,8 @@ React 프로젝트 개발 시 `@sky-ui/react-video-thumbnail-extractor` 모듈�
 
 ```typescript
 // examples/src/demos/DemoAdvanced.tsx 파일 일부
-import type { Thumbnail, ThumbnailValidationResult } from '@sky-ui/react-video-thumbnail-extractor';
-import { VideoThumbnailExtractorMessages, VideoThumbnailExtractorModal } from '@sky-ui/react-video-thumbnail-extractor';
+import type { Thumbnail, ThumbnailValidationResult } from '@devskyui/react-video-thumbnail-extractor';
+import { VideoThumbnailExtractorMessages, VideoThumbnailExtractorModal } from '@devskyui/react-video-thumbnail-extractor';
 
 export const DemoAdvanced = () => {
   // ... 생략

@@ -1,13 +1,16 @@
 import 'react-quill-new/dist/quill.snow.css';
 import './style.css';
-import '@sky-ui/react-video-thumbnail-extractor/style.css';
+import '@devskyui/react-video-thumbnail-extractor/style.css';
 
 import type {
   Thumbnail,
   ThumbnailValidationResult,
   VideoThumbnailExtractorMessagesType
-} from '@sky-ui/react-video-thumbnail-extractor';
-import { VideoThumbnailExtractorMessages, VideoThumbnailExtractorModal } from '@sky-ui/react-video-thumbnail-extractor';
+} from '@devskyui/react-video-thumbnail-extractor';
+import {
+  VideoThumbnailExtractorMessages,
+  VideoThumbnailExtractorModal
+} from '@devskyui/react-video-thumbnail-extractor';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 import { AiOutlineVideoCameraAdd } from 'react-icons/ai';

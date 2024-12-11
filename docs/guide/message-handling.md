@@ -13,8 +13,8 @@ import type {
   Thumbnail,
   ThumbnailValidationResult,
   VideoThumbnailExtractorMessagesType
-} from '@sky-ui/react-video-thumbnail-extractor';
-import { VideoThumbnailExtractorMessages } from '@sky-ui/react-video-thumbnail-extractor';
+} from '@devskyui/react-video-thumbnail-extractor';
+import { VideoThumbnailExtractorMessages } from '@devskyui/react-video-thumbnail-extractor';
 
 const messages: VideoThumbnailExtractorMessagesType['ko'] = VideoThumbnailExtractorMessages.ko;
 
@@ -42,5 +42,5 @@ const handleError = (result: ThumbnailValidationResult) => {
 };
 ```
 
-### `@sky-ui/react-video-thumbnail-extractor` message.const.ts
+### `@devskyui/react-video-thumbnail-extractor` message.const.ts
 <<< @/../src/constants/message.const.ts

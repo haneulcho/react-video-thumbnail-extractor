@@ -2,8 +2,8 @@ import type {
   Thumbnail,
   ThumbnailValidationResult,
   VideoThumbnailExtractorMessagesType
-} from '@sky-ui/react-video-thumbnail-extractor';
-import { VideoThumbnailExtractorMessages } from '@sky-ui/react-video-thumbnail-extractor';
+} from '@devskyui/react-video-thumbnail-extractor';
+import { VideoThumbnailExtractorMessages } from '@devskyui/react-video-thumbnail-extractor';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 

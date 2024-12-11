@@ -1,7 +1,13 @@
 {
-  "name": "@sky-ui/react-video-thumbnail-extractor",
+  "name": "@devskyui/react-video-thumbnail-extractor",
   "description": "Sky UI Components - React component for extracting thumbnails from video",
-  "keywords": ["sky-ui", "react-components", "react-video-thumbnail", "react-video", "video-thumbnail-extractor"],
+  "keywords": [
+    "sky-ui",
+    "react-components",
+    "react-video-thumbnail",
+    "react-video",
+    "video-thumbnail-extractor"
+  ],
   "license": "MIT",
   "type": "module",
   "types": "dist/index.d.ts",
@@ -21,12 +27,8 @@
     "README.md",
     "LICENSE"
   ],
-  "version": "0.1.0",
-  "author": {
-    "name": "Haneul Cho",
-    "email": "stuykr@naver.com",
-    "url": "https://github.com/haneulcho"
-  },
+  "version": "0.1.1",
+  "author": "Haneul Cho <stuykr@naver.com> (https://github.com/haneulcho)",
   "homepage": "https://haneulcho.github.io/react-video-thumbnail-extractor",
   "repository": {
     "type": "git",
@@ -110,5 +112,9 @@
   },
   "engines": {
     "node": ">=20.18.0"
+  },
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
   }
 }

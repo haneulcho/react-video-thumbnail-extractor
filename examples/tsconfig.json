@@ -4,7 +4,7 @@
     "baseUrl": "../",
     "paths": {
       "@/*": ["examples/src/*"],
-      "@sky-ui/react-video-thumbnail-extractor": ["src/index.ts"]
+      "@devskyui/react-video-thumbnail-extractor": ["src/index.ts"]
     }
   },
   "include": ["src", "examples"]
