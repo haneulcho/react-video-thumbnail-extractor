@@ -23,7 +23,10 @@ export default defineConfig({
       '/guide/': { base: '/guide/', items: sidebarGuide() },
       '/examples/': { base: '/examples/', items: sidebarExamples() }
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/haneulcho' }],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/haneulcho' },
+      { icon: 'linkedin', link: 'https://www.linkedin.com/in/haneul-fe/' }
+    ],
     footer: {
       copyright: 'Copyright © 2024-present Haneul Cho'
     },
