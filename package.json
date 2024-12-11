@@ -1,26 +1,42 @@
 {
   "name": "@sky-ui/react-video-thumbnail-extractor",
   "description": "Sky UI Components - React component for extracting thumbnails from video",
-  "private": true,
+  "keywords": ["sky-ui", "react-components", "react-video-thumbnail", "react-video", "video-thumbnail-extractor"],
+  "license": "MIT",
   "type": "module",
+  "types": "dist/index.d.ts",
   "main": "dist/react-video-thumbnail-extractor.umd.js",
   "module": "dist/react-video-thumbnail-extractor.es.js",
-  "types": "dist/types/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/react-video-thumbnail-extractor.umd.js",
       "import": "./dist/react-video-thumbnail-extractor.es.js",
-      "require": "./dist/react-video-thumbnail-extractor.umd.js"
-    }
+      "style": "./dist/style.css"
+    },
+    "./style.css": "./dist/style.css"
   },
   "files": [
     "dist/",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "version": "0.1.0",
   "author": {
     "name": "Haneul Cho",
     "email": "stuykr@naver.com",
     "url": "https://github.com/haneulcho"
+  },
+  "homepage": "https://haneulcho.github.io/react-video-thumbnail-extractor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haneulcho/react-video-thumbnail-extractor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haneulcho/react-video-thumbnail-extractor/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "dev": "vite --config vite.examples.config.ts",
@@ -37,12 +53,10 @@
     "docs:preview": "vitepress preview docs --port 8080",
     "postversion": "yarn-or-npm build"
   },
-  "peerDependencies": {
+  "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-player": "^2.0.0"
-  },
-  "dependencies": {
+    "react-player": "^2.0.0",
     "react-hot-toast": "^2.4.1",
     "react-icons": "^5.3.0",
     "react-quill-new": "^3.3.3"
@@ -98,8 +112,6 @@
     "yarn-or-npm": "^3.0.1"
   },
   "engines": {
-    "yarn": ">=1.22.0",
     "node": ">=20.18.0"
-  },
-  "packageManager": "yarn@1.22.0"
+  }
 }
