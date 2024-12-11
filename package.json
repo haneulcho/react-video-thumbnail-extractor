@@ -35,9 +35,6 @@
   "bugs": {
     "url": "https://github.com/haneulcho/react-video-thumbnail-extractor/issues"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "scripts": {
     "dev": "vite --config vite.examples.config.ts",
     "build": "vite build",
