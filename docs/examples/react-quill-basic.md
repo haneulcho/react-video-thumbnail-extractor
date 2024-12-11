@@ -74,4 +74,4 @@ const handleInsertThumbnails = (thumbnailUrls: string[]) => {
 ```
 
 ### /react-quill/DemoBasic.tsx
-<<< @/../examples/src/demos/react-quill/DemoBasic.tsx{1-3,5-10,14,57,62-66,74-83}
+<<< @/../examples/src/demos/react-quill/DemoBasic.tsx{1-3,5-10,17,60,65-69,77-86}
