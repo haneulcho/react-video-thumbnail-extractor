@@ -7,9 +7,11 @@ const siteUrl = 'localhost';
 
 export default defineConfig({
   lang: 'ko-KR',
+  base: '/react-video-thumbnail-extractor',
   title: 'Sky UI - React 동영상 썸네일 추출기',
   description: 'React Video Thumbnail Extractor - Sky UI Components',
   appearance: 'force-dark',
+  ignoreDeadLinks: [/^https?:\/\/localhost/],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: '/favicon.ico',
