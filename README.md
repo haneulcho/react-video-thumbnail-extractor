@@ -31,7 +31,7 @@
 | URL                                                | Description      | Command       |
 |----------------------------------------------------|------------------|---------------|
 | [`https://localhost:3032`](https://localhost:3032) | 예제 데모 페이지 | `yarn dev`    |
-| [`https://localhost:3033`](https://localhost:3033) | 가이드 문서      | `yarn docs`   |
+| [`https://localhost:3033/react-video-thumbnail-extractor/`](https://localhost:3033/react-video-thumbnail-extractor/) | 가이드 문서      | `yarn docs`   |
 
 ### 1. 패키지 설치
 node -v 커맨드로 Node.js 버전을 확인 후 실행해 주세요.
@@ -63,8 +63,7 @@ yarn build
 
 ```
 dist/
-├── types/
-│   └── index.d.ts
+├── index.d.ts
 ├── style.css
 ├── react-video-thumbnail-extractor.es.js
 ├── react-video-thumbnail-extractor.umd.js

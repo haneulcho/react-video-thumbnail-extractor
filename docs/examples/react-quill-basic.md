@@ -6,7 +6,7 @@
 | URL                                                | Description      | Command       |
 |----------------------------------------------------|------------------|---------------|
 | [`https://localhost:3032`](https://localhost:3032) | 예제 데모 페이지 | `yarn dev`    |
-| [`https://localhost:3033`](https://localhost:3033) | 가이드 문서      | `yarn docs`   |
+| [`https://localhost:3033/react-video-thumbnail-extractor/`](https://localhost:3033/react-video-thumbnail-extractor/) | 가이드 문서      | `yarn docs`   |
 
 ::: code-group
 
@@ -74,4 +74,4 @@ const handleInsertThumbnails = (thumbnailUrls: string[]) => {
 ```
 
 ### /react-quill/DemoBasic.tsx
-<<< @/../examples/src/demos/react-quill/DemoBasic.tsx{1-2,4-9,13,56,61-65,73-82}
+<<< @/../examples/src/demos/react-quill/DemoBasic.tsx{1-3,5-10,14,57,62-66,74-83}

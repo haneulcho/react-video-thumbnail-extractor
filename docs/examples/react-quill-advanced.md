@@ -58,4 +58,4 @@ const modules = useMemo(
 <<< @/../examples/src/demos/react-quill/EditorToolbar.tsx{50-58}
 
 ### /react-quill/DemoAdvanced.tsx
-<<< @/../examples/src/demos/react-quill/DemoAdvanced.tsx{1-2,4-5,7,25-37,45,50-58,60-74}
+<<< @/../examples/src/demos/react-quill/DemoAdvanced.tsx{1-3,5-6,8,26-38,46,51-59,61-75}

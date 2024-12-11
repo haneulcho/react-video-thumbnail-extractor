@@ -1,5 +1,6 @@
 import 'react-quill-new/dist/quill.snow.css';
 import './style.css';
+import '@sky-ui/react-video-thumbnail-extractor/style.css';
 
 import type {
   Thumbnail,

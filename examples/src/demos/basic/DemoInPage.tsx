@@ -1,3 +1,5 @@
+import '@sky-ui/react-video-thumbnail-extractor/style.css';
+
 import type { Thumbnail, ThumbnailValidationResult } from '@sky-ui/react-video-thumbnail-extractor';
 import { VideoThumbnailExtractor } from '@sky-ui/react-video-thumbnail-extractor';
 import { useState } from 'react';
