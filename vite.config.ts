@@ -24,7 +24,6 @@ export default defineConfig(({ mode }) => {
       tsconfigPaths(),
       dts({
         include: ['src'],
-        staticImport: true,
         insertTypesEntry: true,
         rollupTypes: true
       })
